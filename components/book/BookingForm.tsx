@@ -40,7 +40,7 @@ const BookingForm: React.FC = () => {
       .catch((error) => {
         console.error('Error checking existing bookings:', error)
       })
-  }, [])
+  }, [email])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()

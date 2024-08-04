@@ -38,7 +38,7 @@ const BookingPage: React.FC = () => {
       .finally(() => {
         setLoading(false)
       })
-  }, [])
+  }, [userEmail])
 
   return (
     <div className="flex items-center h-[64vh] px-3 gap-x-1">

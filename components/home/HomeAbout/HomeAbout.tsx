@@ -46,7 +46,7 @@ export default function HomeAbout() {
             <LuBadgeInfo size={60} className="" />
           </div>
           <p className="my-4 text-xl">
-            "Gurkha Warriors" is a family-friendly show featuring contestants
+            Gurkha Warriors is a family-friendly show featuring contestants
             from various backgrounds tackling entertaining and unique obstacle
             courses. Each episode combines thrilling physical challenges with
             amusing tasks, with difficulty increasing as participants advance
