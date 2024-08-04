@@ -1,0 +1,42 @@
+/* Highlight the entire day's box for events */
+.fc .fc-daygrid-event {
+  background-color: #00dd88 !important; /* The event background color */
+  color: black !important; /* The event text color */
+  border: none !important;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-wrap: wrap;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 0 !important; /* Remove rounded corners */
+  font-weight: bold;
+}
+
+/* Style the prev/next buttons to make them more aesthetic */
+.fc .fc-toolbar-chunk:first-child button {
+  background-color: #333 !important;
+  color: #e0f465 !important;
+  border-radius: 50% !important;
+  padding: 5px 10px !important;
+  font-size: 1rem !important;
+  border: none !important;
+  transition: background-color 0.3s ease;
+  margin: 0 8px;
+}
+
+.fc .fc-toolbar-chunk:first-child button:hover {
+  background-color: #555 !important;
+}
+
+/* Adjust the calendar's header to make it look better */
+.fc .fc-toolbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+}
+
+.fc .fc-toolbar.fc-header-toolbar {
+  margin-bottom: 20px;
+}
